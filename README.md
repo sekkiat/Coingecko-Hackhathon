@@ -6,6 +6,7 @@ CoinGecko offers one of the largest and most comprehensive datasets in the crypt
 I understand that creating such a fully functional application would require significant time and effort. Therefore, I have included a simple prototype that was generated using Claude AI, along with a complete system architecture to demonstrate how the concept could be implemented in practice.
 
 Prototype URL: https://claude.ai/public/artifacts/7a8ab5b6-8256-4a7b-90ff-bcc42f4e4e51
+*Please ignore the refresh button, as it requires more time to generate results and often hits Claude’s limits. However, the core idea is that when you click refresh, it fetches a new set of prediction data generated from the MCP.*
 
 ## Architecture Overview
 There are two possible solutions: one that operates fully off-chain and another that integrates with the blockchain.
@@ -23,10 +24,10 @@ The scheduler runs daily to determine if any prediction events have concluded. O
 - On-Chain Flow: If integrated with smart contracts, the backend checks which users won. Winners can claim their original staked tokens plus a share of the total pool, which collected from the losing side. Losers forfeit their stake. A small fee (e.g. 1%) can optionally be taken from the reward pool as a platform fee.
 
 The full architecture of the off-chain flow is as follows:
-<img width="1082" height="667" alt="image" src="https://github.com/user-attachments/assets/3891ca9d-2385-4e26-a843-b0d9ad7ae174" />
+<img width="1081" height="683" alt="image" src="https://github.com/user-attachments/assets/3897f66b-deb2-4eae-b8e3-a11ba0397e20" />
 
 The full architecture of the on-chain flow is as follows:
-<img width="1172" height="598" alt="image" src="https://github.com/user-attachments/assets/97ba74df-9f7e-4dae-afad-8034cb902d43" />
+<img width="1200" height="585" alt="image" src="https://github.com/user-attachments/assets/68ee386f-8a1c-43de-858b-195797f37114" />
 
 ## Further Improvement
 The current design relies solely on MCP-supported data, but it can be enhanced by integrating additional sources, such as news or by allowing the community to submit predictions. This would help diversify the types of questions and make the system more fun to interact.
