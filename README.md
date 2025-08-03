@@ -29,6 +29,8 @@ The full architecture of the off-chain flow is as follows:
 The full architecture of the on-chain flow is as follows:
 <img width="1200" height="585" alt="image" src="https://github.com/user-attachments/assets/68ee386f-8a1c-43de-858b-195797f37114" />
 
+Apologies if the diagram is a bit confusing...😅
+
 ## Further Improvement
 The current design relies solely on MCP-supported data, but it can be enhanced by integrating additional sources, such as news or by allowing the community to submit predictions. This would help diversify the types of questions and make the system more fun to interact.
 
