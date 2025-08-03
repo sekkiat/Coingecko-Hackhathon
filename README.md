@@ -1,4 +1,4 @@
-# Coingecko Hackathon - Market Prediction Platform with CoinGecko MCP
+# Coingecko Hackathon - Market Prediction with CoinGecko MCP
 ## Introduction
 CoinGecko offers one of the largest and most comprehensive datasets in the crypto space. For this hackathon, my idea is to utilize the CoinGecko MCP to create a fun and engaging prediction market. This could be implemented either as a standalone dApp or as an integrated feature within the CoinGecko app. This would enable users to make real-time predictions on market trends and earn rewards for accurate forecasts. During my research, I explored various crypto analytics platforms and found that none of them offer this type of prediction based user interaction. Therefore, I think that adding such a feature could make CoinGecko more fun and interactive, helping to increase the app’s visibility and boost user engagement.  If implemented as a standalone dApp, it could also be integrated with smart contracts to automate reward distribution and generate fee based revenue for the platform.
 
