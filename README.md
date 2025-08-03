@@ -6,7 +6,7 @@ CoinGecko offers one of the largest and most comprehensive datasets in the crypt
 I understand that creating such a fully functional application would require significant time and effort. Therefore, I have included a simple prototype that was generated using Claude AI, along with a complete system architecture to demonstrate how the concept could be implemented in practice.
 
 Prototype URL: https://claude.ai/public/artifacts/7a8ab5b6-8256-4a7b-90ff-bcc42f4e4e51 \
-*Please ignore the refresh button, as it requires more time to generate results and often hits Claude’s limits. However, the core idea is that when you click refresh, it fetches a new set of prediction data generated from the MCP.*
+*Please ignore the refresh button, as it frequently hits the usage limits of the free Claude LLM and often results in errors. The core idea is that clicking the refresh button would generate a new set of prediction data from the MCP.*
 
 ## Architecture Overview
 There are two possible solutions: one that operates fully off-chain and another that integrates with the blockchain.
