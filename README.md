@@ -9,7 +9,7 @@ Prototype URL: https://claude.ai/public/artifacts/7a8ab5b6-8256-4a7b-90ff-bcc42f
 *Please ignore the refresh button, as it frequently hits the usage limits of the free Claude LLM and often results in errors. The core idea is that clicking the refresh button would generate a new set of prediction data from the MCP.*
 
 Update on August 8:
-Creating a simple Python script using SmolAgent with the OpenAI API and CoinGecko MCP to generate prediction questions. I have attached the code in this repo.
+Creating a simple python script using smolagent integrate with the OpenAI API and CoinGecko MCP to generate prediction questions. I have attached the code in this repo.
 <img width="1155" height="770" alt="image" src="https://github.com/user-attachments/assets/c293858e-1dc9-44b2-930e-d49d53f6ec6c" />
 
 ## Architecture Overview
