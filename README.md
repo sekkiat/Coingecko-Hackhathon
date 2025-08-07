@@ -10,7 +10,7 @@ Prototype URL: https://claude.ai/public/artifacts/7a8ab5b6-8256-4a7b-90ff-bcc42f
 
 Update on August 8:
 Creating a simple Python script using SmolAgent with the OpenAI API and CoinGecko MCP to generate prediction questions. I have attached the code in this repo.
-<img width="1156" height="800" alt="image" src="https://github.com/user-attachments/assets/cae4e0a7-fcc6-4efd-92fd-4d3a6e3d3842" />
+<img width="1155" height="770" alt="image" src="https://github.com/user-attachments/assets/c293858e-1dc9-44b2-930e-d49d53f6ec6c" />
 
 ## Architecture Overview
 There are two possible solutions: one that operates fully off-chain and another that integrates with the blockchain.
