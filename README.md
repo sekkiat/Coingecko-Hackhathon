@@ -18,8 +18,8 @@ There are two possible solutions: one that operates fully off-chain and another 
 A scheduler, integrated with CoinGecko MCP, can automatically generate prediction questions on a daily, weekly, or monthly basis in the backend. I tested this using endpoints like `get_coins_top_gainer_losers`, `get_search_trending`, and `get_new_coins_list`, and the outputs were solid and relevant. These questions can be categorized based on MCP-supported data such as trending tokens, top gainers, top losers, NFTs, newly listed meme tokens, and more. Each prediction will align with a specific timeframe (daily, weekly, or monthly) to keep the content fresh and engaging. A pre-structured LLM prompt system will be required to consistently guide the LLM in generating unique questions.
 ### Step 2: Voting Mechanism
 Users can participate in two ways:
-- Free Voting: Registered users on the CoinGecko app receive one free vote per prediction.
-- Staked Voting: Users can connect with their crypto wallets and vote by staking USDT or USDC. The staked funds are securely held in a smart contract and remain locked until the prediction event concludes at the predefined timestamp.
+- Free Voting (for Integration into the CoinGecko Application): Registered users on the CoinGecko app receive one free vote per prediction.
+- Staked Voting (for standalone application): Users can connect with their crypto wallets and vote by staking USDT or USDC. The staked funds are securely held in a smart contract and remain locked until the prediction event concludes at the predefined timestamp.
 ### Step 3: User Discussion (Before Prediction Ends)
 A discussion section can be introduced to allow users to share their thoughts, making the experience more interactive and community-driven.
 ### Step 4: Reward Settlement & Distribution
