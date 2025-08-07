@@ -15,7 +15,7 @@ if not OPENAI_API_KEY:
 openai.api_key = OPENAI_API_KEY
 
 #Connet to CG MCP
-print("🔌 Connecting to CoinGecko MCP...")
+print("Connecting to CoinGecko MCP...")
 client = MCPClient({
     "url": "https://mcp.api.coingecko.com/sse",
     "transport": "sse"
@@ -90,4 +90,5 @@ while final_answer is None or final_answer.output is None:
 
 #Output
 print("\nFinal Prediction Questions:\n")
+
 print(final_answer.output)
