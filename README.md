@@ -8,6 +8,10 @@ I understand that creating such a fully functional application would require sig
 Prototype URL: https://claude.ai/public/artifacts/7a8ab5b6-8256-4a7b-90ff-bcc42f4e4e51 \
 *Please ignore the refresh button, as it frequently hits the usage limits of the free Claude LLM and often results in errors. The core idea is that clicking the refresh button would generate a new set of prediction data from the MCP.*
 
+Update on August 8:
+Creating a simple Python script using SmolAgent with the OpenAI API and CoinGecko MCP to generate prediction questions. I have attached the code in this repo
+<img width="1156" height="800" alt="image" src="https://github.com/user-attachments/assets/cae4e0a7-fcc6-4efd-92fd-4d3a6e3d3842" />
+
 ## Architecture Overview
 There are two possible solutions: one that operates fully off-chain and another that integrates with the blockchain.
 ### Step 1: Automated Prediction Generation
